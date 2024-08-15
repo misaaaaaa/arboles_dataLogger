@@ -1,0 +1,2 @@
+version,device name,recording epoch time,recording time,recording timezone,platform,appVersion,device id,sensors,sampleRateMs,standardisation
+3,iPhone 11,1723738175393,2024-08-15_16-09-35,America/Santiago,ios,1.31,16cf0e40-a810-4c2e-a4cb-f5aae938e92a,Microphone|Annotation,100|,false
