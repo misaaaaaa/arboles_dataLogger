@@ -1,14 +1,8 @@
-/*  ----------------------------------------------------------------
-    http://www.prometec.net/data-logger-shield
-    Prog_146_1
-    
-    Ejemplo de data loggin con reloj y SD card
---------------------------------------------------------------------  */
-// #include <DHT11.h>
+//código para proj arboles ciudadanos
+
 #include <SD.h>
 #include <Wire.h>
 #include <SPI.h>  // Necesario para la SD card
-// #include "RTClib.h"
 
 //conexiones típicas de SD
 //CS 10
@@ -26,8 +20,7 @@ uint8_t pair = 01;
 int16_t val_01 = 0;
 int16_t val_23 = 0;
 
-// DHT11 dht11(6);     // Definimos el sensor de temperatura
-// RTC_DS1307 RTC;     // Definimos el reloj
+
 File logfile;               // Fichero a escribir en la SD
 const int chipSelect = 10;  // SD card pin select
 const bool eco = true;
@@ -40,7 +33,6 @@ int buttonState = 0;      // variable for reading the pushbutton status
 void setup() {
 
   pinMode(ledPin, OUTPUT);
-  // initialize the pushbutton pin as an input:
   pinMode(buttonPin, INPUT);
 
   Serial.begin(115200);
@@ -60,13 +52,10 @@ void setup() {
   pair = 01;
   //  trigger first read
   ADS.requestADC_Differential_0_1();
-  // pinMode(5, OUTPUT)  ;       // DHT11 GMD
-  // pinMode(7, OUTPUT) ;        // DHT11 Vcc
-  // pinMode(6, INPUT_PULLUP) ;  // DHT11 pin de lectura
+
   pinMode(chipSelect, OUTPUT);  // SD card pin select
 
-  // digitalWrite(7, HIGH) ;   // Damos tension al DHT11
-  // digitalWrite(5, LOW) ;
+
 
   if (!SD.begin(chipSelect)) {
     error("No hay tarjeta SD.");
@@ -93,27 +82,10 @@ void setup() {
   Serial.print("Registrando en: ");
   Serial.println(filename);
 
-  // connect to RTC
-  // Wire.begin();
-  // if (!RTC.begin())
-  //     logfile.println("No hay RTC.");
-  // else
-  //     Serial.println("RTC correcto. Iniciando captura de datos");
-
-  // logfile.print("Fecha/Hora") ;
-  // logfile.print(", ");
-  // //logfile.print(" ID ") ;
-  // //logfile.print(", ");
-  // logfile.print("Temp") ;
-  // logfile.println("Humedad") ;
 }
 
 void loop() {
-  //DateTime now;
-  //int err;
-  //float temp, hum;
 
-  ////////////////////////////////
   if (handleConversion() == true) {
 
     Serial.print("COMP:\t");
@@ -143,42 +115,8 @@ void loop() {
     }
   }
 
-  //  do other stuff here
-  delay(10);
-
-  //  if((err = dht11.read(hum, temp)) == 0)    // Si devuelve 0 es que ha leido bien
-  //     {  //now = RTC.now();
-
-  //       //  logfile.print(now.unixtime()); // seconds since 1/1/1970
-  //       //  logfile.print(", ");
-  //        //logfile.print(count);
-  //        //logfile.print(", ");
-  //        logfile.print(temp);
-  //        logfile.print(", ");
-  //        logfile.println(hum);
-  //        if ( count++ > 64 )
-  //           {   logfile.flush(); // Para forzar la escritura en la SD
-  //               count = 0 ;       // Cada 64 lecturas
-  //           }
-  //       //  if (eco)
-  //       //   {
-  //       //      //Serial.print(now.unixtime()); // seconds since 1/1/1970
-  //       //      Serial.print(", ");
-  //       //      Serial.print(count);
-  //       //      Serial.print(", ");
-  //       //      Serial.print(temp);
-  //       //      Serial.print(", ");
-  //       //      Serial.println(hum);
-  //       //   }
-  //     }
-  //  else
-  //     {
-  //        Serial.println();
-  //        Serial.print("Error Num :");
-  //        Serial.print(err);
-  //        Serial.println();
-  //     }
-  delay(500);  //Recordad que solo lee una vez por segundo
+  //muestras cada x ms
+  delay(500);  
 }
 
 void error(char *str) {
