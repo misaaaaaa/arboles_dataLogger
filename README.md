@@ -41,9 +41,14 @@ Olmos (dos)
 ![olmosGraphA](./data/20240821_qn/olmos/olmoA.png)
 ![olmosGraphB](./data/20240821_qn/olmos/olmoB.png)
 
+<<<<<<< Updated upstream
 Peumo
 
 ![Peumo](./data/20240821_qn/peumo/peumo.png)
+=======
+peumo
+![peumo](./data/20240821_qn/peumo/peumo.png)
+>>>>>>> Stashed changes
 
 ### 28 de agosto de 2024 - Parque Quinta Normal
 
