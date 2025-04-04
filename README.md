@@ -4,6 +4,8 @@ Bitácora de datos del proyecto creado por [@organismo.teatro](https://www.insta
 
 Este repositorio contiene el código del microcontrolador utilizado, el esquemático utilizado (un ADC utilizado en modo amplificador de instrumentación) y los datos recogidos desde la tercera etapa (Parque Quinta Normal)
 
+![palmDispositivo](./img/palm.jpeg)
+
 ## Árboles registrados
 
 ### 15 de agosto de 2024 - Parque Quinta Normal
