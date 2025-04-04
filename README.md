@@ -28,7 +28,7 @@ Magnolios (dos ejemplares)
 
 Alcornoque
 ![alcornoqueAGraph](./data/20240821_qn/alcornoque/alcornoqueA.png)
-![alcornoqueBGraph](./data/20240821_qn/alcornoque/alcornoqueb.png)
+![alcornoqueBGraph](./data/20240821_qn/alcornoque/alcornoqueB.png)
 
 Olmos (dos)
 ![olmosGraphA](./data/20240821_qn/olmos/olmoA.png)
