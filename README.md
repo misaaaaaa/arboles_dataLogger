@@ -34,8 +34,8 @@ Olmos (dos)
 ![olmosGraphA](./data/20240821_qn/olmos/olmoA.png)
 ![olmosGraphB](./data/20240821_qn/olmos/olmoB.png)
 
-Quillay
-![quillay](./data/20240821_qn/quillay/quillay.png)
+Peumo
+![Peumo](./data/20240821_qn/peumo/peumo.png)
 
 ### 28 de agosto de 2024 - Parque Quinta Normal
 
