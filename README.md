@@ -11,44 +11,55 @@ Este repositorio contiene el código del microcontrolador utilizado, el esquemá
 ### 15 de agosto de 2024 - Parque Quinta Normal
 
 Abeto
+
 ![abetoGraph](./data/20240815_qn/abeto/abeto.png)
 
 Araucaria
+
 ![araucariaGraph](./data/20240815_qn/araucaria/araucaria.png)
 
 Encinos (dos ejemplares)
+
 ![encinoGraphA](./data/20240815_qn/encino/encinoA.png)
 ![encinoGraphB](./data/20240815_qn/encino/encinoB.png)
 
 Magnolios (dos ejemplares)
+
 ![magnolioJovenGraph](./data/20240815_qn/magnolios/magnolioJoven.png)
+
 ![magnolioViejoGraph](./data/20240815_qn/magnolios/magnolioViejo.png)
 
 ### 21 de agosto de 2024 - Parque Quinta Normal
 
 Alcornoque
+
 ![alcornoqueAGraph](./data/20240821_qn/alcornoque/alcornoqueA.png)
 ![alcornoqueBGraph](./data/20240821_qn/alcornoque/alcornoqueB.png)
 
 Olmos (dos)
+
 ![olmosGraphA](./data/20240821_qn/olmos/olmoA.png)
 ![olmosGraphB](./data/20240821_qn/olmos/olmoB.png)
 
 Peumo
+
 ![Peumo](./data/20240821_qn/peumo/peumo.png)
 
 ### 28 de agosto de 2024 - Parque Quinta Normal
 
 Palmeras (dos)
+
 ![palmeraFenix](./data/20240828_qn/palmeras/palmeraFenix.png)
 ![palmeraMatojo](./data/20240828_qn/palmeras/palmeraMatojo.png)
 
 Platano oriental 
+
 ![platanoOrientalA](./data/20240828_qn/platanoOriental/platanoOriental.png)
 
 ### 4 de abril de 2025 - Centro Cultural Ailanto
 
 Ailanto 
+
 ![ailanto](./data/20250402_ailanto/ailanto.png)
 
 ## Sonificaciones
